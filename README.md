@@ -24,7 +24,7 @@ Image to image translation dataset, like horse2zebra, summer2winter_yosemite, ci
 Performance on cityscapes compared with conventional pruning method:
 ![](fig/FCN.png)
 
-## Citation
+### Citation
 	@inproceedings{GAN pruning,
 		title={Co-Evolutionary Compression for unpaired image Translation},
 		author={Shu, Han and Wang, Yunhe and Jia, Xu and Han, Kai and Chen, Hanting and Xu, Chunjing and Tian, Qi and Xu, Chang},
