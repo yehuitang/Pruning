@@ -4,7 +4,7 @@ Code for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Tr
 This paper proposes a co-evolutionary approach for reducing memory usage and FLOPs of generators on image-to-image transfer task simultaneously while maintains their performances.
 
 <p align="center">
-<img src="fig/framework.PNG" width="800">
+<img src="fig/framework.PNG" width="600">
 </p>
 
 ### Description
