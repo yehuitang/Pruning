@@ -3,7 +3,9 @@ Code for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Tr
 
 This paper proposes a co-evolutionary approach for reducing memory usage and FLOPs of generators on image-to-image transfer task simultaneously while maintains their performances.
 
-![](fig/framework.PNG)
+<p align="center">
+<img src="fig/framework.PNG" width="800">
+</p>
 
 ### Description
 - GAN pruning search/test code for image to image translation task.
@@ -22,7 +24,8 @@ Image to image translation dataset, like horse2zebra, summer2winter_yosemite, ci
 
 ### Performance
 Performance on cityscapes compared with conventional pruning method:
-![](fig/FCN.PNG)
+<img src="fig/FCN.PNG" width="600">
+</p>
 
 ### Citation
 	@inproceedings{GAN pruning,
