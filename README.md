@@ -1,6 +1,8 @@
 ### GAN-pruning
 Code for our ICCV 2019 paper [Co-Evolutionary Compression for unpaired image Translation](https://arxiv.org/abs/1907.10804)
+
 This paper proposes a co-evolutionary approach for reducing memory usage and FLOPs of generators on image-to-image transfer task simultaneously while maintains their performances.
+
 ![](fig/framework.png)
 
 ### Description
