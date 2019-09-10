@@ -8,15 +8,16 @@ This paper proposes a co-evolutionary approach for reducing memory usage and FLO
 </p>
 
 ### Description
-- GAN pruning search/test code for image to image translation task.
+- GAN pruning search/finetune/test code for image to image translation task.
 
 ### Files description
 Requirements: Python3.6, PyTorch0.4
 
 - `search.py` is the search script ultilizing Genetic Algorithem for GAN pruning.
+- `finetune.py` is the script for finetuning searched pruned architectures.
+- `test.py` is the script for testing pruned architectures.
 - `models.py` defines original architecture of generators and discriminators.
-- `models_prune.py` defined searched pruned architecture with binary channel mask.
-- `test.py` is the test script for fintuned searched pruned architecture.
+- `models_prune.py` defines searched pruned architecture with binary channel mask.
 - `GA.py` defines evolutionary operations .
 
 ### Dataset
@@ -34,5 +35,3 @@ Performance on cityscapes compared with conventional pruning method:
 		booktitle={ICCV},
 		year={2019}
 	}
-
-
