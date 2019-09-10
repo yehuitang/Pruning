@@ -30,7 +30,7 @@ Performance on cityscapes compared with conventional pruning method:
 
 ### Citation
 	@inproceedings{GAN pruning,
-		title={Co-Evolutionary Compression for unpaired image Translation},
+		title={Co-Evolutionary Compression for Unpaired Image Translation},
 		author={Shu, Han and Wang, Yunhe and Jia, Xu and Han, Kai and Chen, Hanting and Xu, Chunjing and Tian, Qi and Xu, Chang},
 		booktitle={ICCV},
 		year={2019}
