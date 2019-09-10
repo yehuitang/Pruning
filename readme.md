@@ -8,7 +8,7 @@ This paper proposes a co-evolutionary approach for reducing memory usage and FLO
 </p>
 
 ### Description
-- GAN pruning search/test code for image to image translation task.
+- GAN pruning search/finetune/test code for image to image translation task.
 
 ### Files description
 Requirements: Python3.6, PyTorch0.4
