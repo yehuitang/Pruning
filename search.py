@@ -130,7 +130,7 @@ def caculate_fitness_for_first_time(mask_input,gpu_id,fitness_id,A2B_or_B2A):
     cfg_full_mask=[y for x in cfg_mask for y in x]
     cfg_full_mask=np.array(cfg_full_mask)
     cfg_id=0
-    start_mask=torch.ones(3)
+    start_mask=np.ones(3)
     end_mask=cfg_mask[cfg_id]
   
     
@@ -330,7 +330,7 @@ def caculate_fitness(mask_input_A2B,mask_input_B2A,gpu_id,fitness_id,A2B_or_B2A)
     cfg_full_mask_B2A=[y for x in cfg_mask_B2A for y in x]
     cfg_full_mask_B2A=np.array(cfg_full_mask_B2A)
     cfg_id=0
-    start_mask=torch.ones(3)
+    start_mask=np.ones(3)
     end_mask=cfg_mask_A2B[cfg_id]
  
     for m in model_A2B.modules():
@@ -403,7 +403,7 @@ def caculate_fitness(mask_input_A2B,mask_input_B2A,gpu_id,fitness_id,A2B_or_B2A)
         
         
     cfg_id=0
-    start_mask=torch.ones(3)
+    start_mask=np.ones(3)
     end_mask=cfg_mask_B2A[cfg_id]
  
     for m in model_B2A.modules():
