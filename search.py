@@ -127,6 +127,8 @@ def caculate_fitness_for_first_time(mask_input,gpu_id,fitness_id,A2B_or_B2A):
     criterion_identity = torch.nn.L1Loss()
     fitness=0   
     cfg_mask=compute_layer_mask(mask_input,mask_chns)
+    cfg_full_mask=[y for x in cfg_mask for y in x]
+    cfg_full_mask=np.array(cfg_full_mask)
     cfg_id=0
     start_mask=torch.ones(3)
     end_mask=cfg_mask[cfg_id]
