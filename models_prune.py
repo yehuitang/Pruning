@@ -1,3 +1,6 @@
+# 2019.11.25-Changed for constructing pruned model 
+#            Huawei Technologies Co., Ltd. <foss@huawei.com> 
+
 import torch.nn as nn
 import numpy as np
 
