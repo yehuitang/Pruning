@@ -1,3 +1,6 @@
+# 2019.11.25-Changed for testing pruned model 
+#            Huawei Technologies Co., Ltd. <foss@huawei.com> 
+
 import argparse
 import sys
 import os
