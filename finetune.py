@@ -1,4 +1,4 @@
-# 2019.11.25-Changed for finetune pruned model 
+# 2019.11.25-Changed for finetuning pruned model 
 #            Huawei Technologies Co., Ltd. <foss@huawei.com> 
 
 import argparse
