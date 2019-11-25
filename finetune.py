@@ -1,3 +1,6 @@
+# 2019.11.25-Changed for finetune pruned model 
+#            Huawei Technologies Co., Ltd. <foss@huawei.com> 
+
 import argparse
 import itertools
 
