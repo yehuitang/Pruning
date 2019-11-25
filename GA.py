@@ -1,3 +1,6 @@
+# 2019.11.25-Changed for GA operations 
+#            Huawei Technologies Co., Ltd. <foss@huawei.com> 
+
 import os
 import torch
 import numpy as np
