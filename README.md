@@ -7,8 +7,9 @@ Code for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Tr
 
 ### Performance
 Performance on cityscapes compared with conventional pruning method:
+<p align="center">
 <img src="GAN-Pruning/fig/FCN.PNG" width="600">
-
+</p>
 
 
 ## SCOP
