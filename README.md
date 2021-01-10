@@ -4,6 +4,7 @@ Code for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Tr
 <p align="center">
 <img src="GAN-Pruning/fig/framework.PNG" width="600">
 </p>
+
 ### Performance
 Performance on cityscapes compared with conventional pruning method:
 <img src="GAN-Pruning/fig/FCN.PNG" width="600">
@@ -19,9 +20,7 @@ Code for our NeurIPS 2020 paper, [SCOP: Scientific Control for Reliable Neural N
 
 
 ### Performance
-
 Comparison of the pruned networks with different methods on ImageNet.
-
 
 <p align="center">
 <img src="SCOP_NeurIPS2020/fig/imagenet.PNG" width="600">
