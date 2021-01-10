@@ -1,5 +1,5 @@
 ## GAN-pruning
-Code for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Translation](https://arxiv.org/abs/1907.10804), which proposes a co-evolutionary approach for reducing memory usage and FLOPs of generators on image-to-image transfer task simultaneously while maintains their performances.
+A Pytorch implementation for our ICCV 2019 paper, [Co-Evolutionary Compression for unpaired image Translation](https://arxiv.org/abs/1907.10804), which proposes a co-evolutionary approach for reducing memory usage and FLOPs of generators on image-to-image transfer task simultaneously while maintains their performances.
 
 <p align="center">
 <img src="GAN-Pruning/fig/framework.PNG" width="600">
@@ -13,7 +13,7 @@ Performance on cityscapes compared with conventional pruning method:
 
 
 ## SCOP
-Code for our NeurIPS 2020 paper, [SCOP: Scientific Control for Reliable Neural Network Pruning](https://arxiv.org/abs/2010.10732), which proposes a reliable neural network pruning algorithm by setting up a scientific control. 
+A Pytorch implementation for our NeurIPS 2020 paper, [SCOP: Scientific Control for Reliable Neural Network Pruning](https://arxiv.org/abs/2010.10732), which proposes a reliable neural network pruning algorithm by setting up a scientific control. 
 
 <p align="center">
 <img src="SCOP_NeurIPS2020/fig/framework.PNG" width="700">
