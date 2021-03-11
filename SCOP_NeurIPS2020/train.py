@@ -344,7 +344,11 @@ def train_with_kf(train_loader, model, criterion, optimizer, epoch, log,kfclass)
 
         
         output = model(input_var)
-        output=output[:(output.shape[0]//2)]
+        
+        output_list=[]
+        for igpu in range(args.ngpu):
+            output_list.append(output[igpu*num_pgpu*2:igpu*num_pgpu*2+num_pgpu])
+        output=torch.cat(output_list,dim=0)  
         
         loss = criterion(output, target_var)
 
