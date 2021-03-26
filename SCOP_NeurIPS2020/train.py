@@ -436,13 +436,13 @@ net = torch.nn.DataParallel(net, device_ids=list(range(args.ngpu)))
 
 if args.dataset!='imagenet':
     if args.arch=='resnet110':
-        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet110_multi_step.pth.tar'))
+        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet110.pth.tar'))
     elif args.arch=='resnet56':
-        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet56_multi_step.pth.tar'))
+        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet56.pth.tar'))
     elif args.arch=='resnet32':
-        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet32_multi_step.pth.tar'))
+        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet32.pth.tar'))
     elif args.arch=='resnet20':
-        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet20_multi_step.pth.tar'))
+        pretrain = torch.load(os.path.join(args.pretrain_path,'cifar_pretrained_nets/','resnet20.pth.tar'))
     net.load_state_dict(pretrain['state_dict'].state_dict())
 
 
