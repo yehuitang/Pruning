@@ -31,7 +31,7 @@ Comparison of the pruned networks with different methods on ImageNet.
 A Pytorch implementation for our CVPR 2021 paper, [Manifold Regularized Dynamic Network Pruning](https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Manifold_Regularized_Dynamic_Network_Pruning_CVPR_2021_paper.pdf), which proposes a dynamic pruning paradigm to maximally excavate network redundancy corresponding to input instances.
 
 <p align="center">
-<img src="manidp/fig/framework.PNG" width="700">
+<img src="ManiDP/fig/framework.PNG" width="700">
 </p>
 
 
@@ -39,7 +39,7 @@ A Pytorch implementation for our CVPR 2021 paper, [Manifold Regularized Dynamic 
 Comparison of the pruned networks with different methods on ImageNet.
 
 <p align="center">
-<img src="manidp/fig/imagenet.PNG" width="600">
+<img src="ManiDP/fig/imagenet.PNG" width="600">
 </p>
 
 
